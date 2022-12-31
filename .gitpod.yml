@@ -7,4 +7,5 @@ tasks:
     command: "echo example how to start project"
 
 vscode:
-  extensions: denoland.vscode-deno@3.15.0
+  extensions: 
+    - denoland.vscode-deno@3.15.0
