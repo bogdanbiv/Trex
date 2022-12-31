@@ -2,7 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: ""
+  - name: Setup
+    init: ""
     command: "echo example how to start project"
 
 vscode:
