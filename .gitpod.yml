@@ -5,6 +5,9 @@ tasks:
   - name: Setup
     init: ""
     command: "echo example how to start project"
+  - name: Test
+    init: ""
+    command: "deno run --allow-read=./,${HOME}/.deno/trex_storage/ --allow-write=${HOME}/.deno/trex_storage/ --allow-env=GITHUB_ACTIONS,GITHUB_WORKFLOW,GITHUB_JOB,HOME --import-map=import_map.json cli.ts"
 
 vscode:
   extensions: 
